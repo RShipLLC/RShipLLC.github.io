@@ -33,12 +33,7 @@ color:#FFFFFF;
     font-weight: 700;
 }
 
-@media(max-width:450px) {
-    .text-vertical-center h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-}
-}
+
 
 /* Custom Button Styles */
 
@@ -187,13 +182,55 @@ hr.small {
 	color:#ffffff;
 }
 
-.header #DesktopSpacer {
-	height: 350px;
+
+
+
+@media screen and (min-width:951px) and (max-width: 1200px){
+	.header #DesktopSpacer {
+	height: 420px;
 	width: 10px;
 }
 
+.text-vertical-center h1 {
+    font-size: 4.5em;
+    font-weight: 700;}
+}
+
+@media screen and (min-width:1201px) {
+	.header #DesktopSpacer {
+	height: 420px;
+	width: 10px;
+}
+
+.text-vertical-center h1 {
+    font-size: 5.5em;
+    font-weight: 700;}
+}
+
+@media screen and (max-width:550px) {
+	.header #DesktopSpacer {
+	height: 250px;
+	width: 10px;
+}
+
+.text-vertical-center h1 {
+    font-size: 2.5em;
+    font-weight: 700;}
+}
+
+@media screen and (min-width:551px) and (max-width:950px) {
+	.header #DesktopSpacer {
+	height: 300px;
+	width: 10px;
+}
+
+.text-vertical-center h1 {
+    font-size: 3.5em;
+    font-weight: 700;}
+}
+
 .header #MobileSpacer {
-	height: 280px;
+	height: 420px;
 	width: 10px;
 }
 
